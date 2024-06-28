@@ -1,0 +1,22 @@
+.projectsContainer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    gap: 20px;
+}
+.projectsContainer * {
+    flex: 1;
+}
+.imageContainer {
+    align-items: center;
+}
+.image {
+    margin: auto;
+}
+.main :nth-child(3) {
+    border: #E6E6E6;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}

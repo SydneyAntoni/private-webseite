@@ -1,0 +1,9 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.cardContainer :first-child {
+    align-self: center;
+    padding: 30px;
+}

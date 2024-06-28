@@ -1,0 +1,20 @@
+.itemNav {
+    color: #F32555;
+    font-family: 'Nunito_Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.itemNavSelected {
+    color: #FF6A00;
+    font-family: 'Nunito_Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-top: 20px;
+}

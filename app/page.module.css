@@ -1,0 +1,32 @@
+.banner {
+    background: linear-gradient(180deg, #FA8900 0%, #A3A054 82.14%, #80BD1D 100%);
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.sydney {
+    background: linear-gradient(90deg, #F93F00 0%, #F32555 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.subTitle {
+    font-size: 34px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 50px;
+
+}
+.projects * {
+    flex: 1;
+}

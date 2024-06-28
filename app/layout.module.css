@@ -1,0 +1,58 @@
+/*Header*/
+.containerBalken {
+    display: flex;
+}
+.magentaBalken {
+    height: 10px;
+    width: 100%;
+    background-color: #F32555;
+}
+.orangeBalken {
+    height: 10px;
+    width: 100%;
+    background-color: #FF6A00;
+}
+.buttonLogo {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+}
+.containerLogoNav {
+    display: flex;
+}
+.containerLogoNav nav {
+    margin-left: auto;
+}
+.buttonLogoLink {
+    width: 70px;
+    height: 70px;
+}
+.containerNav {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 38px;
+}
+
+/*Footer*/
+.listFooter {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 76px;
+    border-color: #606060;
+    border-top: solid;
+    border-top-width: 1px;
+    margin: 0 60px;
+    list-style-type: none;
+}
+.listFooter :nth-child(3){
+    margin-left: auto;
+}
+.listElements {
+    margin: 20px 10px 20px 0;
+}

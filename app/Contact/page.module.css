@@ -1,0 +1,12 @@
+.phoneContainer {
+    display: flex;
+    padding: 30px 50px;
+    gap: 30px;
+    align-items: center;
+}
+.mailContainer {
+    display: flex;
+    padding: 30px 50px 200px 50px;
+    gap: 30px;
+    align-items: center;
+}

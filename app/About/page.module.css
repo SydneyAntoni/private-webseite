@@ -1,0 +1,20 @@
+.imageTextContainer {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.imageTextContainer :first-child {
+     flex: 2;
+}
+.imageTextContainer :last-child {
+    flex: 1.5;
+}
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subheading {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
