@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 60px;
 }
-.sydney {
+.linearGradient {
     background: linear-gradient(90deg, #F93F00 0%, #F32555 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -29,4 +29,9 @@
 }
 .projects * {
     flex: 1;
+}
+.historyContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }

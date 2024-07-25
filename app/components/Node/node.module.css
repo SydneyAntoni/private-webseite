@@ -1,0 +1,10 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.date {
+    color: #FA6800;
+    font-size: 32px;
+    font-weight: bold;
+}
