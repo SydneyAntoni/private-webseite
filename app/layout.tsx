@@ -32,6 +32,9 @@ export default function RootLayout({
       <meta name="msapplication-TileColor" content="#2b5797"/>
       <meta name="msapplication-config" content={process.env.NEXT_PUBLIC_BASE_URL + "/browserconfig.xml"}/>
       <meta name="theme-color" content="#ffffff"/>
+      <meta property="og:title" content="Portfolio - Sydney Antoni"/>
+      <meta property="og:description" content="Portfolio Website for Sydney Antoni"/>
+      <meta property="og:image" content={process.env.NEXT_PUBLIC_BASE_URL + "/portrait.png"}/>
     </head>
     <body className={inter.className}>
     <header>

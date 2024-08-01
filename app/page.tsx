@@ -37,7 +37,7 @@ export default function Home() {
             />
         </section>
         <section className={styles.historyContainer}>
-            <Node date={"01.01.2021"} className={styles.historyContainer}>Bla bla bla </Node>
+            <Node date={"01.01.2021"}>Bla bla bla </Node>
             <Image
                 src={process.env.NEXT_PUBLIC_BASE_URL + '/history-lines/firstLine.svg'}
                 alt={'first line'}
