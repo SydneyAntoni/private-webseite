@@ -34,7 +34,10 @@ export default function RootLayout({
       <meta name="theme-color" content="#ffffff"/>
       <meta property="og:title" content="Portfolio - Sydney Antoni"/>
       <meta property="og:description" content="Portfolio Website for Sydney Antoni"/>
+      <meta property="og:url" content={process.env.NEXT_PUBLIC_BASE_URL}/>
       <meta property="og:image" content={process.env.NEXT_PUBLIC_BASE_URL + "/portrait.png"}/>
+      <meta property="og:image:alt" content="A Portrait of Sydney Antoni"/>
+      <meta property="og:type" content="website"/>
     </head>
     <body className={inter.className}>
     <header>
